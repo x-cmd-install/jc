@@ -7,7 +7,7 @@ about:
   head: 8290734
   archived: false
   latestVersion: v1.25.7
-  collectedAt: 2026-09-04T19:28:05Z
+  collectedAt: 2026-09-04T21:06:09Z
 timeline:
   created: 2019-10-15
   lastCommit: 2026-06-18
@@ -81,6 +81,74 @@ total:
   openIssue: 35
   commit: 3975
 ---
+path: /home/runner/.x-repo/github.com/kellyjonbrazil/jc
+collectedAt: 2026-09-04T21:06:12Z
+loc:
+  Python:
+    code: 92148
+    comments: 2879
+    blanks: 15199
+    files: 551
+  Json:
+    code: 9702
+    comments: 0
+    blanks: 0
+    files: 1158
+  Sh:
+    code: 726
+    comments: 47
+    blanks: 62
+    files: 11
+  Xml:
+    code: 278
+    comments: 1
+    blanks: 1
+    files: 3
+  Yaml:
+    code: 237
+    comments: 5
+    blanks: 7
+    files: 3
+  Ini:
+    code: 124
+    comments: 164
+    blanks: 16
+    files: 5
+  Toml:
+    code: 35
+    comments: 3
+    blanks: 13
+    files: 2
+  SRecode:
+    code: 31
+    comments: 0
+    blanks: 8
+    files: 2
+  Autoconf:
+    code: 3
+    comments: 0
+    blanks: 0
+    files: 1
+  ForgeConfig:
+    code: 2
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 30902
+    blanks: 6690
+    files: 246
+  Text:
+    code: 0
+    comments: 36
+    blanks: 2
+    files: 5
+total:
+  code: 108596
+  comments: 34040
+  blanks: 21999
+  files: 1988
 ---
 date: "2026-08-24"
 repo:
