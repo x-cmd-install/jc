@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 28122600,
       "digest": "sha256:93dbaf3d6a0304b6da29b15891b00269c33d532b23f86eafa410ce7fbe360b45",
-      "download_count": 39,
+      "download_count": 40,
       "created_at": "2026-06-18T20:06:04Z",
       "updated_at": "2026-06-18T20:06:32Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-1.aarch64.rpm"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 26715401,
       "digest": "sha256:ebf46063eaecbc8bdab4fb8d5580dad32feb26f85bf1869a185de35de1ab891b",
-      "download_count": 192,
+      "download_count": 193,
       "created_at": "2026-06-29T03:01:07Z",
       "updated_at": "2026-06-29T03:01:23Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-2.x86_64.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 21770975,
       "digest": "sha256:21d1775a186ddcd8b84e18d7d1774cd5c68f6056e5c770f80918fd2dbe293747",
-      "download_count": 196,
+      "download_count": 197,
       "created_at": "2026-06-18T17:18:16Z",
       "updated_at": "2026-06-18T17:18:38Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-darwin-aarch64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 21883524,
       "digest": "sha256:2f940b455f5aff968189c3f6655b1610100bd8b399c57fc0bba5db422f94ba07",
-      "download_count": 29,
+      "download_count": 30,
       "created_at": "2026-09-06T22:47:02Z",
       "updated_at": "2026-09-06T22:47:29Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-darwin-x86_64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 28420349,
       "digest": "sha256:f1f15f9204c19ae70d50ca9b047de86bc00a1c9941b486a15f8586790d0ea323",
-      "download_count": 488,
+      "download_count": 489,
       "created_at": "2026-06-18T17:27:28Z",
       "updated_at": "2026-06-18T17:27:55Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-linux-aarch64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 27005746,
       "digest": "sha256:5b7ab595bfbaa70f07a15136bbc3c09d6dbf65891248bf1f060ec3da29608a2c",
-      "download_count": 3625,
+      "download_count": 3641,
       "created_at": "2026-06-29T02:59:22Z",
       "updated_at": "2026-06-29T02:59:40Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-linux-x86_64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 20490514,
       "digest": "sha256:f9b2e4c1819781edfeedfeda9f6f51163b8dd8f704da4ade5271b7ade05d6914",
-      "download_count": 355,
+      "download_count": 357,
       "created_at": "2026-06-18T22:04:02Z",
       "updated_at": "2026-06-18T22:04:04Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-windows.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 21340160,
       "digest": "sha256:14efbaa4f72f5c73b15ccd8c0095905aef864ec513c85452dc59f95ea48cbeae",
-      "download_count": 160,
+      "download_count": 162,
       "created_at": "2026-06-18T22:02:11Z",
       "updated_at": "2026-06-18T22:02:13Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7.msi"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 28355008,
       "digest": "sha256:ef19911f6f21867c4cc4e5a34c39e88f419641dcce610712c21f1f6e009c1fc7",
-      "download_count": 74,
+      "download_count": 75,
       "created_at": "2026-06-18T20:06:34Z",
       "updated_at": "2026-06-18T20:07:01Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc_1.25.7-1_arm64.deb"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 26945020,
       "digest": "sha256:82ed1738ea031d2cc5674816351654ff907087ab061579b680f10c70d2720379",
-      "download_count": 290,
+      "download_count": 292,
       "created_at": "2026-06-29T03:01:33Z",
       "updated_at": "2026-06-29T03:01:56Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc_1.25.7-2_amd64.deb"
