@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,678 · **Forks**: 257 · **Open issues**: 386 · **Contributors**: 64
+- **Stars**: 8,678 · **Forks**: 256 · **Open issues**: 387 · **Contributors**: 64
 
 ## Totals (cumulative)
 
-- **Releases**: 54 · **Merged PRs**: 290 · **Open PRs**: 5 · **Closed issues**: 348 · **Open issues**: 38 · **Commits**: 3975
+- **Releases**: 54 · **Merged PRs**: 291 · **Open PRs**: 5 · **Closed issues**: 348 · **Open issues**: 39 · **Commits**: 3975
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-17 | 0 | 13 | 0 | 0 | 4 | 0 |
-| last60d | 2026-07-18 | 0 | 26 | 2 | 0 | 4 | 0 |
-| 90d | 2026-06-18 | 1 | 29 | 2 | 1 | 8 | 0 |
-| last180d | 2026-03-20 | 1 | 38 | 2 | 7 | 8 | 20 |
-| 360d | 2025-09-21 | 2 | 42 | 2 | 18 | 9 | 46 |
-| last720d | 2024-09-26 | 4 | 57 | 2 | 55 | 16 | 167 |
+| 30d | 2026-08-18 | 0 | 13 | 0 | 0 | 5 | 0 |
+| last60d | 2026-07-19 | 0 | 27 | 2 | 0 | 5 | 0 |
+| 90d | 2026-06-19 | 0 | 30 | 2 | 1 | 9 | 0 |
+| last180d | 2026-03-21 | 1 | 39 | 2 | 7 | 9 | 20 |
+| 360d | 2025-09-22 | 2 | 43 | 2 | 18 | 10 | 46 |
+| last720d | 2024-09-27 | 4 | 58 | 2 | 55 | 17 | 166 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260916.yml` · 2026-09-16T04:54:36Z._
+_Snapshot: `data/card/260917.yml` · 2026-09-17T04:57:43Z._
