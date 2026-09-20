@@ -4,7 +4,7 @@
 
 CLI tool and python library that converts the output of popular command-line tools, file-types, and common strings to JSON, YAML, or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.
 
-![jc](https://repo.x-cmd.io/jc.svg)
+[![x-cmd/install — jc Code Quality Monitoring Repo Card](https://repo.x-cmd.io/jc.svg)](https://x-cmd.com/install/jc)
 
 ## Install
 
@@ -14,13 +14,13 @@ x install jc
 
 ## Code insight
 
-Total: **103,286** lines of code across **1726** files in the top 5 languages.
+Total: **106,113** lines of code across **1790** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 92,148 | 2,879 | 15,199 | 551 |
-| Json | 9,702 | 0 | 0 | 1158 |
-| Sh | 726 | 47 | 62 | 11 |
+| Python | 94,887 | 2,988 | 15,548 | 566 |
+| Json | 9,774 | 0 | 0 | 1207 |
+| Sh | 742 | 47 | 63 | 11 |
 | Xml | 278 | 1 | 1 | 3 |
 | Yaml | 237 | 5 | 7 | 3 |
 
@@ -41,43 +41,43 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.25.7` (2026-06-18)
-- **Last commit**: 2026-06-18
+- **Latest**: `v1.26.0` (2026-09-19)
+- **Last commit**: 2026-09-19
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 8,677 · **Forks**: 255 · **Open issues**: 387 · **Contributors**: 64
+- **Stars**: 8,678 · **Forks**: 256 · **Open issues**: 387 · **Contributors**: 78
 
 ## Totals (cumulative)
 
-- **Releases**: 54 · **Merged PRs**: 291 · **Open PRs**: 5 · **Closed issues**: 348 · **Open issues**: 39 · **Commits**: 3975
+- **Releases**: 55 · **Merged PRs**: 297 · **Open PRs**: 5 · **Closed issues**: 366 · **Open issues**: 21 · **Commits**: 4057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 13 | 0 | 0 | 5 | 0 |
-| last60d | 2026-07-20 | 0 | 27 | 2 | 0 | 5 | 0 |
-| 90d | 2026-06-20 | 0 | 30 | 2 | 1 | 9 | 0 |
-| last180d | 2026-03-22 | 1 | 39 | 2 | 7 | 9 | 20 |
-| 360d | 2025-09-23 | 2 | 43 | 2 | 18 | 10 | 46 |
-| last720d | 2024-09-28 | 4 | 58 | 2 | 55 | 16 | 166 |
+| 30d | 2026-08-21 | 1 | 19 | 0 | 4 | 1 | 77 |
+| last60d | 2026-07-22 | 1 | 32 | 2 | 4 | 1 | 77 |
+| 90d | 2026-06-22 | 1 | 36 | 2 | 9 | 1 | 77 |
+| last180d | 2026-03-24 | 2 | 45 | 2 | 15 | 1 | 97 |
+| 360d | 2025-09-25 | 3 | 49 | 2 | 27 | 1 | 123 |
+| last720d | 2024-09-30 | 5 | 64 | 2 | 66 | 5 | 248 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [jc-1.25.7-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-1.aarch64.rpm) | 26.8 MiB | `runtime/rpm/aarch64` |
-| [jc-1.25.7-2.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-2.x86_64.rpm) | 25.5 MiB | `runtime/rpm/x86_64` |
-| [jc-1.25.7-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-darwin-aarch64.tar.gz) | 20.8 MiB | `native/darwin/arm64` |
-| [jc-1.25.7-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-darwin-x86_64.tar.gz) | 20.9 MiB | `native/darwin/x64` |
-| [jc-1.25.7-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-linux-aarch64.tar.gz) | 27.1 MiB | `native/linux/arm64` |
-| [jc-1.25.7-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-linux-x86_64.tar.gz) | 25.8 MiB | `native/linux/x64` |
-| [jc-1.25.7-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7-windows.zip) | 19.5 MiB | `native/win/x64` |
-| [jc-1.25.7.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc-1.25.7.msi) | 20.4 MiB | `other` |
-| [jc_1.25.7-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc_1.25.7-1_arm64.deb) | 27.0 MiB | `runtime/deb/arm64` |
-| [jc_1.25.7-2_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.25.7/jc_1.25.7-2_amd64.deb) | 25.7 MiB | `runtime/deb/amd64` |
+| [jc-1.26.0-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-1.aarch64.rpm) | 26.9 MiB | `runtime/rpm/aarch64` |
+| [jc-1.26.0-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-1.x86_64.rpm) | 25.5 MiB | `runtime/rpm/x86_64` |
+| [jc-1.26.0-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-aarch64.tar.gz) | 20.8 MiB | `native/darwin/arm64` |
+| [jc-1.26.0-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-x86_64.tar.gz) | 20.9 MiB | `native/darwin/x64` |
+| [jc-1.26.0-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-aarch64.tar.gz) | 27.1 MiB | `native/linux/arm64` |
+| [jc-1.26.0-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-x86_64.tar.gz) | 25.8 MiB | `native/linux/x64` |
+| [jc-1.26.0-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-windows.zip) | 19.6 MiB | `native/win/x64` |
+| [jc-1.26.0.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0.msi) | 20.4 MiB | `other` |
+| [jc_1.26.0-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_amd64.deb) | 25.6 MiB | `runtime/deb/amd64` |
+| [jc_1.26.0-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_arm64.deb) | 26.9 MiB | `runtime/deb/arm64` |
 
 ## Improve this data
 
@@ -88,4 +88,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T04:36:11Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T04:51:00Z._
