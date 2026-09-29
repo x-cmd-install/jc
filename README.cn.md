@@ -30,8 +30,8 @@ x install jc
 
 评分最低的几项:
 
-- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **Packaging** (-1/10) — packaging workflow not detected
+- **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 
 ## 源代码
@@ -57,12 +57,12 @@ x install jc
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 1 | 14 | 7 | 3 | 3 | 27 |
-| last60d | 2026-07-30 | 1 | 31 | 9 | 4 | 3 | 79 |
-| 90d | 2026-06-30 | 1 | 36 | 9 | 6 | 3 | 79 |
-| last180d | 2026-04-01 | 2 | 42 | 9 | 13 | 3 | 91 |
-| 360d | 2025-10-03 | 3 | 49 | 9 | 25 | 3 | 125 |
-| last720d | 2024-10-08 | 5 | 64 | 9 | 66 | 7 | 248 |
+| 30d | 2026-08-30 | 1 | 14 | 7 | 3 | 3 | 27 |
+| last60d | 2026-07-31 | 1 | 31 | 9 | 4 | 3 | 79 |
+| 90d | 2026-07-01 | 1 | 36 | 9 | 6 | 3 | 79 |
+| last180d | 2026-04-02 | 2 | 42 | 9 | 13 | 3 | 91 |
+| 360d | 2025-10-04 | 3 | 49 | 9 | 25 | 3 | 125 |
+| last720d | 2024-10-09 | 5 | 64 | 9 | 66 | 7 | 248 |
 
 ## Release 资产
 
@@ -88,4 +88,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260928.yml` · 2026-09-28T05:15:17Z._
+_数据快照: `data/card/260929.yml` · 2026-09-29T05:42:37Z._
