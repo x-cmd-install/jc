@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 298 · **Open PRs**: 12 · **Closed issues**: 366 · **Open issues**: 23 · **Commits**: 4057
+- **Releases**: 55 · **Merged PRs**: 300 · **Open PRs**: 9 · **Closed issues**: 366 · **Open issues**: 23 · **Commits**: 4057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 1 | 14 | 7 | 3 | 3 | 24 |
-| last60d | 2026-08-06 | 1 | 31 | 9 | 4 | 3 | 79 |
-| 90d | 2026-07-07 | 1 | 36 | 9 | 5 | 3 | 79 |
-| last180d | 2026-04-08 | 2 | 42 | 9 | 13 | 3 | 91 |
-| 360d | 2025-10-10 | 3 | 49 | 9 | 25 | 3 | 122 |
-| last720d | 2024-10-15 | 5 | 63 | 9 | 63 | 7 | 248 |
+| 30d | 2026-09-06 | 1 | 16 | 5 | 3 | 3 | 24 |
+| last60d | 2026-08-07 | 1 | 33 | 7 | 4 | 3 | 79 |
+| 90d | 2026-07-08 | 1 | 38 | 7 | 5 | 3 | 79 |
+| last180d | 2026-04-09 | 2 | 44 | 7 | 13 | 3 | 91 |
+| 360d | 2025-10-11 | 3 | 51 | 7 | 24 | 3 | 122 |
+| last720d | 2024-10-16 | 5 | 65 | 7 | 63 | 7 | 248 |
 
 ## Release assets
 
@@ -88,4 +88,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:31:15Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:16:56Z._
