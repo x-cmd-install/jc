@@ -43,26 +43,26 @@ x install jc
 
 - **最新版本**: `v1.26.0` (2026-09-19)
 - **最近提交**: 2026-09-19
-- **Release 含资产**: 10 个
+- **Release 含资产**: 11 个
 
 ## 流行度
 
-- **Star**: 8,694 · **Fork**: 265 · **开放 issue**: 392 · **贡献者**: 78
+- **Star**: 8,694 · **Fork**: 267 · **开放 issue**: 395 · **贡献者**: 78
 
 ## 累计统计
 
-- **发布数**: 55 · **已合并 PR**: 300 · **开放 PR**: 12 · **已关闭 issue**: 366 · **开放 issue**: 26 · **提交数**: 4057
+- **发布数**: 55 · **已合并 PR**: 300 · **开放 PR**: 15 · **已关闭 issue**: 366 · **开放 issue**: 29 · **提交数**: 4057
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 1 | 9 | 8 | 0 | 5 | 11 |
-| last60d | 2026-08-17 | 1 | 23 | 8 | 4 | 6 | 79 |
-| 90d | 2026-07-18 | 1 | 36 | 10 | 4 | 6 | 79 |
-| last180d | 2026-04-19 | 2 | 43 | 10 | 11 | 6 | 86 |
-| 360d | 2025-10-21 | 2 | 50 | 10 | 24 | 6 | 122 |
-| last720d | 2024-10-26 | 5 | 62 | 10 | 62 | 10 | 236 |
+| 30d | 2026-09-17 | 1 | 9 | 11 | 0 | 8 | 11 |
+| last60d | 2026-08-18 | 1 | 22 | 11 | 4 | 9 | 79 |
+| 90d | 2026-07-19 | 1 | 36 | 13 | 4 | 9 | 79 |
+| last180d | 2026-04-20 | 2 | 42 | 13 | 11 | 9 | 86 |
+| 360d | 2025-10-22 | 2 | 50 | 13 | 24 | 9 | 122 |
+| last720d | 2024-10-27 | 5 | 62 | 13 | 62 | 13 | 236 |
 
 ## Release 资产
 
@@ -74,6 +74,7 @@ x install jc
 | [jc-1.26.0-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-x86_64.tar.gz) | 20.9 MiB | `native/darwin/x64` |
 | [jc-1.26.0-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-aarch64.tar.gz) | 27.1 MiB | `native/linux/arm64` |
 | [jc-1.26.0-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-x86_64.tar.gz) | 25.8 MiB | `native/linux/x64` |
+| [jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
 | [jc-1.26.0-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-windows.zip) | 19.6 MiB | `native/win/x64` |
 | [jc-1.26.0.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0.msi) | 20.4 MiB | `other` |
 | [jc_1.26.0-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_amd64.deb) | 25.6 MiB | `runtime/deb/amd64` |
@@ -88,4 +89,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261016.yml` · 2026-10-16T04:22:15Z._
+_数据快照: `data/card/261017.yml` · 2026-10-17T04:15:24Z._

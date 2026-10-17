@@ -43,26 +43,26 @@ Lowest-scoring checks:
 
 - **Latest**: `v1.26.0` (2026-09-19)
 - **Last commit**: 2026-09-19
-- **Assets in release**: 10
+- **Assets in release**: 11
 
 ## Popularity
 
-- **Stars**: 8,694 · **Forks**: 265 · **Open issues**: 392 · **Contributors**: 78
+- **Stars**: 8,694 · **Forks**: 267 · **Open issues**: 395 · **Contributors**: 78
 
 ## Totals (cumulative)
 
-- **Releases**: 55 · **Merged PRs**: 300 · **Open PRs**: 12 · **Closed issues**: 366 · **Open issues**: 26 · **Commits**: 4057
+- **Releases**: 55 · **Merged PRs**: 300 · **Open PRs**: 15 · **Closed issues**: 366 · **Open issues**: 29 · **Commits**: 4057
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-16 | 1 | 9 | 8 | 0 | 5 | 11 |
-| last60d | 2026-08-17 | 1 | 23 | 8 | 4 | 6 | 79 |
-| 90d | 2026-07-18 | 1 | 36 | 10 | 4 | 6 | 79 |
-| last180d | 2026-04-19 | 2 | 43 | 10 | 11 | 6 | 86 |
-| 360d | 2025-10-21 | 2 | 50 | 10 | 24 | 6 | 122 |
-| last720d | 2024-10-26 | 5 | 62 | 10 | 62 | 10 | 236 |
+| 30d | 2026-09-17 | 1 | 9 | 11 | 0 | 8 | 11 |
+| last60d | 2026-08-18 | 1 | 22 | 11 | 4 | 9 | 79 |
+| 90d | 2026-07-19 | 1 | 36 | 13 | 4 | 9 | 79 |
+| last180d | 2026-04-20 | 2 | 42 | 13 | 11 | 9 | 86 |
+| 360d | 2025-10-22 | 2 | 50 | 13 | 24 | 9 | 122 |
+| last720d | 2024-10-27 | 5 | 62 | 13 | 62 | 13 | 236 |
 
 ## Release assets
 
@@ -74,6 +74,7 @@ Lowest-scoring checks:
 | [jc-1.26.0-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-x86_64.tar.gz) | 20.9 MiB | `native/darwin/x64` |
 | [jc-1.26.0-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-aarch64.tar.gz) | 27.1 MiB | `native/linux/arm64` |
 | [jc-1.26.0-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-x86_64.tar.gz) | 25.8 MiB | `native/linux/x64` |
+| [jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
 | [jc-1.26.0-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-windows.zip) | 19.6 MiB | `native/win/x64` |
 | [jc-1.26.0.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0.msi) | 20.4 MiB | `other` |
 | [jc_1.26.0-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_amd64.deb) | 25.6 MiB | `runtime/deb/amd64` |
@@ -88,4 +89,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261016.yml` · 2026-10-16T04:22:15Z._
+_Snapshot: `data/card/261017.yml` · 2026-10-17T04:15:24Z._
