@@ -14,13 +14,13 @@ x install jc
 
 ## 代码洞察
 
-合计: **106,113** 行代码（覆盖前 5 种语言、共 **1790** 个文件）。
+合计: **110,362** 行代码（覆盖前 5 种语言、共 **1858** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 94,887 | 2,988 | 15,548 | 566 |
-| Json | 9,774 | 0 | 0 | 1207 |
-| Sh | 742 | 47 | 63 | 11 |
+| Python | 98,513 | 3,059 | 16,205 | 578 |
+| Json | 10,384 | 0 | 0 | 1263 |
+| Sh | 755 | 47 | 63 | 11 |
 | Xml | 278 | 1 | 1 | 3 |
 | Yaml | 237 | 5 | 7 | 3 |
 
@@ -41,44 +41,43 @@ x install jc
 
 ## 发布
 
-- **最新版本**: `v1.26.0` (2026-09-19)
-- **最近提交**: 2026-09-19
-- **Release 含资产**: 11 个
+- **最新版本**: `v1.26.1` (2026-10-18)
+- **最近提交**: 2026-10-18
+- **Release 含资产**: 10 个
 
 ## 流行度
 
-- **Star**: 8,694 · **Fork**: 270 · **开放 issue**: 395 · **贡献者**: 78
+- **Star**: 8,694 · **Fork**: 272 · **开放 issue**: 395 · **贡献者**: 85
 
 ## 累计统计
 
-- **发布数**: 55 · **已合并 PR**: 309 · **开放 PR**: 8 · **已关闭 issue**: 366 · **开放 issue**: 29 · **提交数**: 4057
+- **发布数**: 56 · **已合并 PR**: 315 · **开放 PR**: 6 · **已关闭 issue**: 378 · **开放 issue**: 17 · **提交数**: 4098
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-18 | 1 | 15 | 4 | 0 | 8 | 0 |
-| last60d | 2026-08-19 | 1 | 31 | 4 | 4 | 9 | 44 |
-| 90d | 2026-07-20 | 1 | 45 | 6 | 4 | 9 | 79 |
-| last180d | 2026-04-21 | 2 | 51 | 6 | 11 | 9 | 84 |
-| 360d | 2025-10-23 | 2 | 59 | 6 | 24 | 9 | 122 |
-| last720d | 2024-10-28 | 5 | 71 | 6 | 62 | 13 | 236 |
+| 30d | 2026-09-19 | 2 | 18 | 2 | 6 | 2 | 35 |
+| last60d | 2026-08-20 | 2 | 37 | 2 | 11 | 2 | 80 |
+| 90d | 2026-07-21 | 2 | 50 | 4 | 11 | 2 | 115 |
+| last180d | 2026-04-22 | 3 | 57 | 4 | 18 | 2 | 120 |
+| 360d | 2025-10-24 | 3 | 65 | 4 | 31 | 2 | 158 |
+| last720d | 2024-10-29 | 6 | 77 | 4 | 71 | 4 | 277 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [jc-1.26.0-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-1.aarch64.rpm) | 26.9 MiB | `runtime/rpm/aarch64` |
-| [jc-1.26.0-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-1.x86_64.rpm) | 25.5 MiB | `runtime/rpm/x86_64` |
-| [jc-1.26.0-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-aarch64.tar.gz) | 20.8 MiB | `native/darwin/arm64` |
-| [jc-1.26.0-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-darwin-x86_64.tar.gz) | 20.9 MiB | `native/darwin/x64` |
-| [jc-1.26.0-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-aarch64.tar.gz) | 27.1 MiB | `native/linux/arm64` |
-| [jc-1.26.0-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-linux-x86_64.tar.gz) | 25.8 MiB | `native/linux/x64` |
-| [jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-no-jemalloc-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
-| [jc-1.26.0-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0-windows.zip) | 19.6 MiB | `native/win/x64` |
-| [jc-1.26.0.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc-1.26.0.msi) | 20.4 MiB | `other` |
-| [jc_1.26.0-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_amd64.deb) | 25.6 MiB | `runtime/deb/amd64` |
-| [jc_1.26.0-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.0/jc_1.26.0-1_arm64.deb) | 26.9 MiB | `runtime/deb/arm64` |
+| [jc-1.26.1-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.aarch64.rpm) | 10.5 MiB | `runtime/rpm/aarch64` |
+| [jc-1.26.1-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.x86_64.rpm) | 10.6 MiB | `runtime/rpm/x86_64` |
+| [jc-1.26.1-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-aarch64.tar.gz) | 10.9 MiB | `native/darwin/arm64` |
+| [jc-1.26.1-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-x86_64.tar.gz) | 11.0 MiB | `native/darwin/x64` |
+| [jc-1.26.1-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
+| [jc-1.26.1-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-x86_64.tar.gz) | 10.8 MiB | `native/linux/x64` |
+| [jc-1.26.1-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-windows.zip) | 19.6 MiB | `native/win/x64` |
+| [jc-1.26.1.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1.msi) | 20.4 MiB | `other` |
+| [jc_1.26.1-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_amd64.deb) | 10.7 MiB | `runtime/deb/amd64` |
+| [jc_1.26.1-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
 ## 改进这些数据
 
@@ -89,4 +88,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261018.yml` · 2026-10-18T04:20:44Z._
+_数据快照: `data/card/261019.yml` · 2026-10-19T04:30:48Z._
