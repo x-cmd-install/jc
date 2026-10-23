@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 1 | 13 | 6 | 5 | 3 | 37 |
-| last60d | 2026-08-23 | 2 | 37 | 7 | 11 | 3 | 82 |
-| 90d | 2026-07-24 | 2 | 49 | 9 | 11 | 3 | 117 |
-| last180d | 2026-04-25 | 3 | 57 | 9 | 18 | 3 | 122 |
-| 360d | 2025-10-27 | 3 | 65 | 9 | 31 | 3 | 160 |
-| last720d | 2024-11-01 | 6 | 77 | 9 | 71 | 5 | 279 |
+| 30d | 2026-09-23 | 1 | 12 | 6 | 5 | 3 | 37 |
+| last60d | 2026-08-24 | 2 | 37 | 7 | 11 | 3 | 82 |
+| 90d | 2026-07-25 | 2 | 49 | 9 | 11 | 3 | 117 |
+| last180d | 2026-04-26 | 3 | 57 | 9 | 18 | 3 | 122 |
+| 360d | 2025-10-28 | 3 | 65 | 9 | 31 | 3 | 160 |
+| last720d | 2024-11-02 | 6 | 77 | 9 | 71 | 5 | 279 |
 
 ## Release assets
 
@@ -79,6 +79,25 @@ Lowest-scoring checks:
 | [jc_1.26.1-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_amd64.deb) | 10.7 MiB | `runtime/deb/amd64` |
 | [jc_1.26.1-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
+## Distribution status
+
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **13** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+
+| Distro | Version | Status |
+|--------|---------|--------|
+| Debian unstable | `1.25.7` | ⚠️ outdated |
+| Debian 14 | `1.25.7` | ⚠️ outdated |
+| Debian 13 | `1.25.4` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
+| Arch | `1.26.1` | ✅ latest |
+| Homebrew | `1.26.1` | ✅ latest |
+| Fedora rawhide | `1.26.1` | ✅ latest |
+| Nix unstable | `1.26.0` | ⚠️ outdated |
+| Void | `1.26.1` | ✅ latest |
+| Alpine edge | `1.26.1` | ✅ latest |
+| openSUSE Tumbleweed | `1.26.0` | ⚠️ outdated |
+
 ## Improve this data
 
 Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jc` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -88,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261022.yml` · 2026-10-22T04:33:46Z._
+_Snapshot: `data/card/261023.yml` · 2026-10-23T04:44:44Z._
