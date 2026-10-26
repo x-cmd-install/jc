@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 11142456,
       "digest": "sha256:83ba26372f26e86e5cc37afb101ce8fdae2260014672c1a50b082c5e3530ed77",
-      "download_count": 17,
+      "download_count": 19,
       "created_at": "2026-10-19T01:50:07Z",
       "updated_at": "2026-10-19T01:50:17Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.x86_64.rpm"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 11454836,
       "digest": "sha256:af98ff03c523b11e3c78ebd993d4de88f92f3114ac472e9e33ef2ce7aefee659",
-      "download_count": 66,
+      "download_count": 69,
       "created_at": "2026-10-19T03:05:29Z",
       "updated_at": "2026-10-19T03:05:36Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-aarch64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 11512982,
       "digest": "sha256:7482e01b52a62b3d70ce3cd1ad6995e3c17de98af6e3d8ee64cc85ead69e3ba9",
-      "download_count": 33,
+      "download_count": 35,
       "created_at": "2026-10-19T03:05:36Z",
       "updated_at": "2026-10-19T03:05:44Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-x86_64.tar.gz"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 11147343,
       "digest": "sha256:854b451f9296709930cc3d41fb29af29dda82673e8d9f65b85f119236f9f9e2b",
-      "download_count": 40,
+      "download_count": 45,
       "created_at": "2026-10-19T01:45:12Z",
       "updated_at": "2026-10-19T01:45:22Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-aarch64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 11290115,
       "digest": "sha256:2ed8eb3ce56e05d6df22e9e4406ec037330c18ac3aa9ee689906d7d2f8dda577",
-      "download_count": 171,
+      "download_count": 190,
       "created_at": "2026-10-19T01:45:22Z",
       "updated_at": "2026-10-19T01:45:33Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-x86_64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 20515246,
       "digest": "sha256:e308a0ab68734bae20dc2b145ad624e12eddc9730a6052e23318cefbdb2dfbf7",
-      "download_count": 116,
+      "download_count": 124,
       "created_at": "2026-10-19T02:55:49Z",
       "updated_at": "2026-10-19T02:56:06Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-windows.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 21372928,
       "digest": "sha256:86465a332fff0fc6676c1aa94674add4ba2c6d6bf56cb3294465958906eae0fc",
-      "download_count": 66,
+      "download_count": 69,
       "created_at": "2026-10-19T02:56:16Z",
       "updated_at": "2026-10-19T02:56:30Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1.msi"
