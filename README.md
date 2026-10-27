@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,695 · **Forks**: 268 · **Open issues**: 397 · **Contributors**: 85
+- **Stars**: 8,696 · **Forks**: 267 · **Open issues**: 397 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 335 · **Open PRs**: 13 · **Closed issues**: 378 · **Open issues**: 19 · **Commits**: 4100
+- **Releases**: 56 · **Merged PRs**: 348 · **Open PRs**: 13 · **Closed issues**: 378 · **Open issues**: 19 · **Commits**: 4100
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-26 | 1 | 31 | 8 | 4 | 4 | 37 |
-| last60d | 2026-08-27 | 2 | 55 | 9 | 10 | 4 | 65 |
-| 90d | 2026-07-28 | 2 | 68 | 11 | 11 | 4 | 117 |
-| last180d | 2026-04-29 | 3 | 77 | 11 | 18 | 4 | 122 |
-| 360d | 2025-10-31 | 3 | 85 | 11 | 31 | 4 | 160 |
-| last720d | 2024-11-05 | 6 | 97 | 11 | 70 | 6 | 279 |
+| 30d | 2026-09-27 | 1 | 44 | 8 | 4 | 4 | 37 |
+| last60d | 2026-08-28 | 2 | 64 | 9 | 10 | 4 | 65 |
+| 90d | 2026-07-29 | 2 | 81 | 11 | 11 | 4 | 117 |
+| last180d | 2026-04-30 | 3 | 90 | 11 | 18 | 4 | 122 |
+| 360d | 2025-11-01 | 3 | 98 | 11 | 31 | 4 | 160 |
+| last720d | 2024-11-06 | 6 | 110 | 11 | 70 | 6 | 279 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/jc). **13** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **17** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -96,7 +96,7 @@ Reported by **84** distros on [repology.org](https://repology.org/project/jc). *
 | Nix unstable | `1.26.0` | ⚠️ outdated |
 | Void | `1.26.1` | ✅ latest |
 | Alpine edge | `1.26.1` | ✅ latest |
-| openSUSE Tumbleweed | `1.26.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.26.1` | ✅ latest |
 
 ## Improve this data
 
@@ -107,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261026.yml` · 2026-10-26T04:36:10Z._
+_Snapshot: `data/card/261027.yml` · 2026-10-27T04:54:26Z._
