@@ -1,5 +1,5 @@
-- repo: raspbian_stable
-  subrepo: main
+- repo: pureos_landing
+  subrepo: landing/main
   srcname: jc
   binnames:
     - jc
@@ -11,77 +11,7 @@
     - team+python@tracker.debian.org
     - sudipm.mukherjee@gmail.com
   categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: pardus_21
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: parrot
-  subrepo: parrot/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
+    - utils
 - repo: raspbian_oldstable
   subrepo: main
   srcname: jc
@@ -90,6 +20,20 @@
   visiblename: jc
   version: 1.22.5
   origversion: 1.22.5-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -110,20 +54,6 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
 - repo: alpine_3_21
   subrepo: community
   srcname: jc
@@ -137,20 +67,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
 - repo: alpine_3_21
   subrepo: community
   srcname: jc
@@ -281,20 +197,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: epel_10
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-1.el10_3
-  status: outdated
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: alpine_3_23
   subrepo: community
   srcname: jc
@@ -584,28 +486,62 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - utils
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
 - repo: epel_9
   srcname: jc
   binnames:
     - jc
     - python3-jc
   visiblename: jc
-  version: 1.26.0
-  origversion: 1.26.0-1.el9
+  version: 1.26.1
+  origversion: 1.26.1-1.el9
+  status: newest
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: epel_10
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-1.el10_3
   status: outdated
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
   categories:
     - Unspecified
-- repo: gnuguix
-  srcname: jc
-  binname: jc
-  visiblename: jc
-  version: 1.26.0
-  origversion: null
-  status: outdated
-  summary: Convert the output of command-line tools to JSON
 - repo: fedora_39
   subrepo: updates
   srcname: jc
@@ -667,21 +603,6 @@
   categories:
     - Unspecified
 - repo: fedora_41
-  subrepo: updates
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.25.6
-  origversion: 1.25.6-1.fc41
-  status: outdated
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
   subrepo: release
   srcname: jc
   binnames:
@@ -691,6 +612,21 @@
   version: 1.25.3
   origversion: 1.25.3-4.fc41
   status: legacy
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_41
+  subrepo: updates
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.25.6
+  origversion: 1.25.6-1.fc41
+  status: outdated
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -727,6 +663,21 @@
   categories:
     - Unspecified
 - repo: fedora_43
+  subrepo: updates
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.26.1
+  origversion: 1.26.1-1.fc43
+  status: newest
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
   subrepo: release
   srcname: jc
   binnames:
@@ -736,21 +687,6 @@
   version: 1.25.5
   origversion: 1.25.5-5.fc43
   status: legacy
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
-  subrepo: updates
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.26.0
-  origversion: 1.26.0-1.fc43
-  status: outdated
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -778,9 +714,9 @@
     - jc
     - python3-jc
   visiblename: jc
-  version: 1.26.0
-  origversion: 1.26.0-1.fc44
-  status: outdated
+  version: 1.26.1
+  origversion: 1.26.1-1.fc44
+  status: newest
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -801,6 +737,14 @@
     - MIT
   categories:
     - Unspecified
+- repo: gnuguix
+  srcname: jc
+  binname: jc
+  visiblename: jc
+  version: 1.26.0
+  origversion: null
+  status: outdated
+  summary: Convert the output of command-line tools to JSON
 - repo: homebrew
   srcname: jc
   visiblename: jc
@@ -822,6 +766,20 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
 - repo: macports
   srcname: sysutils/jc
   binname: jc
@@ -965,9 +923,9 @@
   binnames:
     - jc
   visiblename: jc
-  version: 1.26.0
-  origversion: 1.26.0-1.1
-  status: outdated
+  version: 1.26.1
+  origversion: 1.26.1-1.1
+  status: newest
   summary: JSON CLI output utility
   licenses:
     - MIT
@@ -984,6 +942,48 @@
   summary: Converts the output of popular command-line tools and file-types to JSON
   licenses:
     - MIT
+- repo: pardus_21
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: parrot
+  subrepo: parrot/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
 - repo: scoop
   subrepo: main
   binname: jc
