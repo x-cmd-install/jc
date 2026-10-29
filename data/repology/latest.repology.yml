@@ -1,59 +1,3 @@
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.22.5
-  origversion: 1.22.5-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
 - repo: alpine_3_21
   subrepo: community
   srcname: jc
@@ -262,6 +206,20 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.22.5
+  origversion: 1.22.5-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
 - repo: alpine_3_24
   subrepo: community
   srcname: jc
@@ -410,20 +368,6 @@
   visiblename: jc
   version: 1.14.3
   origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.22.5
-  origversion: 1.22.5-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -663,21 +607,6 @@
   categories:
     - Unspecified
 - repo: fedora_43
-  subrepo: updates
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.26.1
-  origversion: 1.26.1-1.fc43
-  status: newest
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_43
   subrepo: release
   srcname: jc
   binnames:
@@ -692,16 +621,16 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: release
+- repo: fedora_43
+  subrepo: updates
   srcname: jc
   binnames:
     - jc
     - python3-jc
   visiblename: jc
-  version: 1.25.6
-  origversion: 1.25.6-2.fc44
-  status: legacy
+  version: 1.26.1
+  origversion: 1.26.1-1.fc43
+  status: newest
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -717,6 +646,21 @@
   version: 1.26.1
   origversion: 1.26.1-1.fc44
   status: newest
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.25.6
+  origversion: 1.25.6-2.fc44
+  status: legacy
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -766,20 +710,20 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
+- repo: ubuntu_25_04
+  subrepo: plucky/universe
   srcname: jc
   binnames:
     - jc
   visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
+  version: 1.25.4
+  origversion: 1.25.4-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
     - sudipm.mukherjee@gmail.com
   categories:
-    - utils
+    - universe/misc
 - repo: macports
   srcname: sysutils/jc
   binname: jc
@@ -957,7 +901,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: jc
   binnames:
     - jc
@@ -971,13 +915,83 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: jc
   binnames:
     - jc
   visiblename: jc
   version: 1.25.4
   origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.22.5
+  origversion: 1.22.5-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
@@ -1029,20 +1043,6 @@
   visiblename: jc
   version: 1.25.1
   origversion: 1.25.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - universe/misc
-- repo: ubuntu_25_04
-  subrepo: plucky/universe
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
   status: outdated
   maintainers:
     - team+python@tracker.debian.org
