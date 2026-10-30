@@ -14,15 +14,15 @@ x install jc
 
 ## 代码洞察
 
-合计: **110,362** 行代码（覆盖前 5 种语言、共 **1858** 个文件）。
+合计: **125,886** 行代码（覆盖前 5 种语言、共 **2119** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 98,513 | 3,059 | 16,205 | 578 |
-| Json | 10,384 | 0 | 0 | 1263 |
-| Sh | 755 | 47 | 63 | 11 |
-| Xml | 278 | 1 | 1 | 3 |
-| Yaml | 237 | 5 | 7 | 3 |
+| Python | 111,836 | 3,729 | 18,602 | 581 |
+| Json | 12,142 | 0 | 0 | 1517 |
+| Sh | 756 | 47 | 63 | 11 |
+| Ini | 477 | 205 | 57 | 6 |
+| Xml | 295 | 1 | 1 | 4 |
 
 ## OpenSSF Scorecard 评分
 
@@ -41,47 +41,47 @@ x install jc
 
 ## 发布
 
-- **最新版本**: `v1.26.1` (2026-10-18)
-- **最近提交**: 2026-10-20
+- **最新版本**: `v1.26.2` (2026-10-29)
+- **最近提交**: 2026-10-29
 - **Release 含资产**: 10 个
 
 ## 流行度
 
-- **Star**: 8,698 · **Fork**: 268 · **开放 issue**: 401 · **贡献者**: 85
+- **Star**: 8,696 · **Fork**: 268 · **开放 issue**: 401 · **贡献者**: 85
 
 ## 累计统计
 
-- **发布数**: 56 · **已合并 PR**: 380 · **开放 PR**: 19 · **已关闭 issue**: 378 · **开放 issue**: 23 · **提交数**: 4100
+- **发布数**: 57 · **已合并 PR**: 385 · **开放 PR**: 16 · **已关闭 issue**: 379 · **开放 issue**: 22 · **提交数**: 4616
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 76 | 14 | 4 | 8 | 37 |
-| last60d | 2026-08-30 | 2 | 96 | 15 | 10 | 8 | 65 |
-| 90d | 2026-07-31 | 2 | 113 | 17 | 11 | 8 | 117 |
-| last180d | 2026-05-02 | 3 | 122 | 17 | 18 | 8 | 122 |
-| 360d | 2025-11-03 | 3 | 130 | 17 | 31 | 8 | 160 |
-| last720d | 2024-11-08 | 6 | 142 | 17 | 70 | 10 | 279 |
+| 30d | 2026-09-30 | 2 | 81 | 11 | 5 | 7 | 437 |
+| last60d | 2026-08-31 | 3 | 101 | 12 | 11 | 7 | 465 |
+| 90d | 2026-08-01 | 3 | 118 | 14 | 12 | 7 | 517 |
+| last180d | 2026-05-03 | 4 | 127 | 14 | 19 | 7 | 522 |
+| 360d | 2025-11-04 | 4 | 135 | 14 | 32 | 7 | 560 |
+| last720d | 2024-11-09 | 7 | 147 | 14 | 71 | 9 | 795 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [jc-1.26.1-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.aarch64.rpm) | 10.5 MiB | `runtime/rpm/aarch64` |
-| [jc-1.26.1-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.x86_64.rpm) | 10.6 MiB | `runtime/rpm/x86_64` |
-| [jc-1.26.1-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-aarch64.tar.gz) | 10.9 MiB | `native/darwin/arm64` |
-| [jc-1.26.1-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-x86_64.tar.gz) | 11.0 MiB | `native/darwin/x64` |
-| [jc-1.26.1-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
-| [jc-1.26.1-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-x86_64.tar.gz) | 10.8 MiB | `native/linux/x64` |
-| [jc-1.26.1-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-windows.zip) | 19.6 MiB | `native/win/x64` |
-| [jc-1.26.1.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1.msi) | 20.4 MiB | `other` |
-| [jc_1.26.1-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_amd64.deb) | 10.7 MiB | `runtime/deb/amd64` |
-| [jc_1.26.1-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
+| [jc-1.26.2-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-1.aarch64.rpm) | 10.6 MiB | `runtime/rpm/aarch64` |
+| [jc-1.26.2-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-1.x86_64.rpm) | 10.7 MiB | `runtime/rpm/x86_64` |
+| [jc-1.26.2-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-darwin-aarch64.tar.gz) | 11.0 MiB | `native/darwin/arm64` |
+| [jc-1.26.2-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-darwin-x86_64.tar.gz) | 11.1 MiB | `native/darwin/x64` |
+| [jc-1.26.2-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-linux-aarch64.tar.gz) | 10.7 MiB | `native/linux/arm64` |
+| [jc-1.26.2-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-linux-x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [jc-1.26.2-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-windows.zip) | 10.4 MiB | `native/win/x64` |
+| [jc-1.26.2.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2.msi) | 11.2 MiB | `other` |
+| [jc_1.26.2-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_amd64.deb) | 10.8 MiB | `runtime/deb/amd64` |
+| [jc_1.26.2-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/jc) 上共有 **84** 个发行版报告此项目。**17** 个 ✅ 已是最新上游版本，**60** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/jc) 上共有 **84** 个发行版报告此项目。**2** 个 ✅ 已是最新上游版本，**75** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,13 +90,13 @@ x install jc
 | Debian 13 | `1.25.4` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.1` | ✅ latest |
-| Homebrew | `1.26.1` | ✅ latest |
-| Fedora rawhide | `1.26.1` | ✅ latest |
+| Arch | `1.26.1` | ⚠️ outdated |
+| Homebrew | `1.26.1` | ⚠️ outdated |
+| Fedora rawhide | `1.26.1` | ⚠️ outdated |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
-| Void | `1.26.1` | ✅ latest |
-| Alpine edge | `1.26.1` | ✅ latest |
-| openSUSE Tumbleweed | `1.26.1` | ✅ latest |
+| Void | `1.26.1` | ⚠️ outdated |
+| Alpine edge | `1.26.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.26.1` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -107,4 +107,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261029.yml` · 2026-10-29T05:37:53Z._
+_数据快照: `data/card/261030.yml` · 2026-10-30T05:38:14Z._

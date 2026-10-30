@@ -14,15 +14,15 @@ x install jc
 
 ## Code insight
 
-Total: **110,362** lines of code across **1858** files in the top 5 languages.
+Total: **125,886** lines of code across **2119** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 98,513 | 3,059 | 16,205 | 578 |
-| Json | 10,384 | 0 | 0 | 1263 |
-| Sh | 755 | 47 | 63 | 11 |
-| Xml | 278 | 1 | 1 | 3 |
-| Yaml | 237 | 5 | 7 | 3 |
+| Python | 111,836 | 3,729 | 18,602 | 581 |
+| Json | 12,142 | 0 | 0 | 1517 |
+| Sh | 756 | 47 | 63 | 11 |
+| Ini | 477 | 205 | 57 | 6 |
+| Xml | 295 | 1 | 1 | 4 |
 
 ## OpenSSF Scorecard
 
@@ -41,47 +41,47 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `v1.26.1` (2026-10-18)
-- **Last commit**: 2026-10-20
+- **Latest**: `v1.26.2` (2026-10-29)
+- **Last commit**: 2026-10-29
 - **Assets in release**: 10
 
 ## Popularity
 
-- **Stars**: 8,698 · **Forks**: 268 · **Open issues**: 401 · **Contributors**: 85
+- **Stars**: 8,696 · **Forks**: 268 · **Open issues**: 401 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 56 · **Merged PRs**: 380 · **Open PRs**: 19 · **Closed issues**: 378 · **Open issues**: 23 · **Commits**: 4100
+- **Releases**: 57 · **Merged PRs**: 385 · **Open PRs**: 16 · **Closed issues**: 379 · **Open issues**: 22 · **Commits**: 4616
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 1 | 76 | 14 | 4 | 8 | 37 |
-| last60d | 2026-08-30 | 2 | 96 | 15 | 10 | 8 | 65 |
-| 90d | 2026-07-31 | 2 | 113 | 17 | 11 | 8 | 117 |
-| last180d | 2026-05-02 | 3 | 122 | 17 | 18 | 8 | 122 |
-| 360d | 2025-11-03 | 3 | 130 | 17 | 31 | 8 | 160 |
-| last720d | 2024-11-08 | 6 | 142 | 17 | 70 | 10 | 279 |
+| 30d | 2026-09-30 | 2 | 81 | 11 | 5 | 7 | 437 |
+| last60d | 2026-08-31 | 3 | 101 | 12 | 11 | 7 | 465 |
+| 90d | 2026-08-01 | 3 | 118 | 14 | 12 | 7 | 517 |
+| last180d | 2026-05-03 | 4 | 127 | 14 | 19 | 7 | 522 |
+| 360d | 2025-11-04 | 4 | 135 | 14 | 32 | 7 | 560 |
+| last720d | 2024-11-09 | 7 | 147 | 14 | 71 | 9 | 795 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [jc-1.26.1-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.aarch64.rpm) | 10.5 MiB | `runtime/rpm/aarch64` |
-| [jc-1.26.1-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-1.x86_64.rpm) | 10.6 MiB | `runtime/rpm/x86_64` |
-| [jc-1.26.1-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-aarch64.tar.gz) | 10.9 MiB | `native/darwin/arm64` |
-| [jc-1.26.1-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-darwin-x86_64.tar.gz) | 11.0 MiB | `native/darwin/x64` |
-| [jc-1.26.1-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-aarch64.tar.gz) | 10.6 MiB | `native/linux/arm64` |
-| [jc-1.26.1-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-linux-x86_64.tar.gz) | 10.8 MiB | `native/linux/x64` |
-| [jc-1.26.1-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1-windows.zip) | 19.6 MiB | `native/win/x64` |
-| [jc-1.26.1.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc-1.26.1.msi) | 20.4 MiB | `other` |
-| [jc_1.26.1-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_amd64.deb) | 10.7 MiB | `runtime/deb/amd64` |
-| [jc_1.26.1-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.1/jc_1.26.1-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
+| [jc-1.26.2-1.aarch64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-1.aarch64.rpm) | 10.6 MiB | `runtime/rpm/aarch64` |
+| [jc-1.26.2-1.x86_64.rpm](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-1.x86_64.rpm) | 10.7 MiB | `runtime/rpm/x86_64` |
+| [jc-1.26.2-darwin-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-darwin-aarch64.tar.gz) | 11.0 MiB | `native/darwin/arm64` |
+| [jc-1.26.2-darwin-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-darwin-x86_64.tar.gz) | 11.1 MiB | `native/darwin/x64` |
+| [jc-1.26.2-linux-aarch64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-linux-aarch64.tar.gz) | 10.7 MiB | `native/linux/arm64` |
+| [jc-1.26.2-linux-x86_64.tar.gz](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-linux-x86_64.tar.gz) | 10.9 MiB | `native/linux/x64` |
+| [jc-1.26.2-windows.zip](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-windows.zip) | 10.4 MiB | `native/win/x64` |
+| [jc-1.26.2.msi](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2.msi) | 11.2 MiB | `other` |
+| [jc_1.26.2-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_amd64.deb) | 10.8 MiB | `runtime/deb/amd64` |
+| [jc_1.26.2-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/jc). **17** are ✅ on the latest upstream release, **60** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **2** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,13 +90,13 @@ Reported by **84** distros on [repology.org](https://repology.org/project/jc). *
 | Debian 13 | `1.25.4` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.1` | ✅ latest |
-| Homebrew | `1.26.1` | ✅ latest |
-| Fedora rawhide | `1.26.1` | ✅ latest |
+| Arch | `1.26.1` | ⚠️ outdated |
+| Homebrew | `1.26.1` | ⚠️ outdated |
+| Fedora rawhide | `1.26.1` | ⚠️ outdated |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
-| Void | `1.26.1` | ✅ latest |
-| Alpine edge | `1.26.1` | ✅ latest |
-| openSUSE Tumbleweed | `1.26.1` | ✅ latest |
+| Void | `1.26.1` | ⚠️ outdated |
+| Alpine edge | `1.26.1` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.26.1` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -107,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T05:37:50Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T05:38:13Z._
