@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,696 · **Forks**: 268 · **Open issues**: 401 · **Contributors**: 85
+- **Stars**: 8,697 · **Forks**: 269 · **Open issues**: 403 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 385 · **Open PRs**: 16 · **Closed issues**: 379 · **Open issues**: 22 · **Commits**: 4616
+- **Releases**: 57 · **Merged PRs**: 385 · **Open PRs**: 18 · **Closed issues**: 379 · **Open issues**: 24 · **Commits**: 4616
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-30 | 2 | 81 | 11 | 5 | 7 | 437 |
-| last60d | 2026-08-31 | 3 | 101 | 12 | 11 | 7 | 465 |
-| 90d | 2026-08-01 | 3 | 118 | 14 | 12 | 7 | 517 |
-| last180d | 2026-05-03 | 4 | 127 | 14 | 19 | 7 | 522 |
-| 360d | 2025-11-04 | 4 | 135 | 14 | 32 | 7 | 560 |
-| last720d | 2024-11-09 | 7 | 147 | 14 | 71 | 9 | 795 |
+| 30d | 2026-10-01 | 2 | 81 | 13 | 5 | 9 | 437 |
+| last60d | 2026-09-01 | 3 | 101 | 14 | 11 | 9 | 465 |
+| 90d | 2026-08-02 | 3 | 118 | 16 | 12 | 9 | 517 |
+| last180d | 2026-05-04 | 4 | 127 | 16 | 19 | 9 | 522 |
+| 360d | 2025-11-05 | 4 | 135 | 16 | 32 | 9 | 560 |
+| last720d | 2024-11-10 | 7 | 147 | 16 | 71 | 11 | 795 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/jc). **2** are ✅ on the latest upstream release, **75** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **3** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -91,7 +91,7 @@ Reported by **84** distros on [repology.org](https://repology.org/project/jc). *
 | Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
 | Arch | `1.26.1` | ⚠️ outdated |
-| Homebrew | `1.26.1` | ⚠️ outdated |
+| Homebrew | `1.26.2` | ✅ latest |
 | Fedora rawhide | `1.26.1` | ⚠️ outdated |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
 | Void | `1.26.1` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261030.yml` · 2026-10-30T05:38:13Z._
+_Snapshot: `data/card/261031.yml` · 2026-10-31T05:26:02Z._
