@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 2 | 81 | 13 | 5 | 9 | 437 |
-| last60d | 2026-09-01 | 3 | 101 | 14 | 11 | 9 | 465 |
-| 90d | 2026-08-02 | 3 | 118 | 16 | 12 | 9 | 517 |
-| last180d | 2026-05-04 | 4 | 127 | 16 | 19 | 9 | 522 |
-| 360d | 2025-11-05 | 4 | 135 | 16 | 32 | 9 | 560 |
-| last720d | 2024-11-10 | 7 | 147 | 16 | 71 | 11 | 795 |
+| 30d | 2026-10-02 | 2 | 81 | 13 | 5 | 9 | 435 |
+| last60d | 2026-09-02 | 3 | 101 | 14 | 11 | 9 | 465 |
+| 90d | 2026-08-03 | 3 | 118 | 16 | 12 | 9 | 517 |
+| last180d | 2026-05-05 | 4 | 127 | 16 | 19 | 9 | 522 |
+| 360d | 2025-11-06 | 4 | 135 | 16 | 32 | 9 | 560 |
+| last720d | 2024-11-11 | 7 | 147 | 16 | 71 | 11 | 795 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/jc). **3** are ✅ on the latest upstream release, **74** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **4** are ✅ on the latest upstream release, **73** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **84** distros on [repology.org](https://repology.org/project/jc). *
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
 | Arch | `1.26.1` | ⚠️ outdated |
 | Homebrew | `1.26.2` | ✅ latest |
-| Fedora rawhide | `1.26.1` | ⚠️ outdated |
+| Fedora rawhide | `1.26.2` | ✅ latest |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
 | Void | `1.26.1` | ⚠️ outdated |
 | Alpine edge | `1.26.1` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T05:26:02Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T05:52:10Z._
