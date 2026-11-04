@@ -26,13 +26,13 @@ Total: **125,886** lines of code across **2119** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **4.3 / 10**
+Overall score: **3.8 / 10**
 
 Lowest-scoring checks:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Code-Review** (0/10) — Found 0/9 approved changesets -- score normalized to 0
 
 ## Source
 
@@ -51,18 +51,18 @@ Lowest-scoring checks:
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 386 · **Open PRs**: 22 · **Closed issues**: 379 · **Open issues**: 25 · **Commits**: 4616
+- **Releases**: 57 · **Merged PRs**: 386 · **Open PRs**: 19 · **Closed issues**: 379 · **Open issues**: 25 · **Commits**: 4616
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 2 | 82 | 17 | 5 | 10 | 435 |
-| last60d | 2026-09-04 | 3 | 102 | 18 | 11 | 10 | 465 |
-| 90d | 2026-08-05 | 3 | 119 | 20 | 12 | 10 | 517 |
-| last180d | 2026-05-07 | 4 | 128 | 20 | 19 | 10 | 522 |
-| 360d | 2025-11-08 | 4 | 136 | 20 | 32 | 10 | 560 |
-| last720d | 2024-11-13 | 7 | 148 | 20 | 71 | 12 | 795 |
+| 30d | 2026-10-05 | 2 | 82 | 14 | 5 | 10 | 435 |
+| last60d | 2026-09-05 | 3 | 102 | 15 | 11 | 10 | 465 |
+| 90d | 2026-08-06 | 3 | 119 | 17 | 12 | 10 | 517 |
+| last180d | 2026-05-08 | 4 | 128 | 17 | 19 | 10 | 522 |
+| 360d | 2025-11-09 | 4 | 136 | 17 | 32 | 10 | 560 |
+| last720d | 2024-11-14 | 7 | 148 | 17 | 71 | 12 | 795 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **84** distros on [repology.org](https://repology.org/project/jc). **11** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
+Reported by **84** distros on [repology.org](https://repology.org/project/jc). **13** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -90,7 +90,7 @@ Reported by **84** distros on [repology.org](https://repology.org/project/jc). *
 | Debian 13 | `1.25.4` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.1` | ⚠️ outdated |
+| Arch | `1.26.2` | ✅ latest |
 | Homebrew | `1.26.2` | ✅ latest |
 | Fedora rawhide | `1.26.2` | ✅ latest |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
@@ -107,4 +107,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261103.yml` · 2026-11-03T06:36:44Z._
+_Snapshot: `data/card/261104.yml` · 2026-11-04T06:14:13Z._

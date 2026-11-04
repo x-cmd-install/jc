@@ -26,13 +26,13 @@ x install jc
 
 ## OpenSSF Scorecard 评分
 
-总评分: **4.3 / 10**
+总评分: **3.8 / 10**
 
 评分最低的几项:
 
 - **Packaging** (-1/10) — packaging workflow not detected
 - **Token-Permissions** (0/10) — detected GitHub workflow tokens with excessive permissions
-- **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Code-Review** (0/10) — Found 0/9 approved changesets -- score normalized to 0
 
 ## 源代码
 
@@ -51,18 +51,18 @@ x install jc
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 386 · **开放 PR**: 22 · **已关闭 issue**: 379 · **开放 issue**: 25 · **提交数**: 4616
+- **发布数**: 57 · **已合并 PR**: 386 · **开放 PR**: 19 · **已关闭 issue**: 379 · **开放 issue**: 25 · **提交数**: 4616
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 2 | 82 | 17 | 5 | 10 | 435 |
-| last60d | 2026-09-04 | 3 | 102 | 18 | 11 | 10 | 465 |
-| 90d | 2026-08-05 | 3 | 119 | 20 | 12 | 10 | 517 |
-| last180d | 2026-05-07 | 4 | 128 | 20 | 19 | 10 | 522 |
-| 360d | 2025-11-08 | 4 | 136 | 20 | 32 | 10 | 560 |
-| last720d | 2024-11-13 | 7 | 148 | 20 | 71 | 12 | 795 |
+| 30d | 2026-10-05 | 2 | 82 | 14 | 5 | 10 | 435 |
+| last60d | 2026-09-05 | 3 | 102 | 15 | 11 | 10 | 465 |
+| 90d | 2026-08-06 | 3 | 119 | 17 | 12 | 10 | 517 |
+| last180d | 2026-05-08 | 4 | 128 | 17 | 19 | 10 | 522 |
+| 360d | 2025-11-09 | 4 | 136 | 17 | 32 | 10 | 560 |
+| last720d | 2024-11-14 | 7 | 148 | 17 | 71 | 12 | 795 |
 
 ## Release 资产
 
@@ -81,7 +81,7 @@ x install jc
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/jc) 上共有 **84** 个发行版报告此项目。**11** 个 ✅ 已是最新上游版本，**66** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/jc) 上共有 **84** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -90,7 +90,7 @@ x install jc
 | Debian 13 | `1.25.4` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.1` | ⚠️ outdated |
+| Arch | `1.26.2` | ✅ latest |
 | Homebrew | `1.26.2` | ✅ latest |
 | Fedora rawhide | `1.26.2` | ✅ latest |
 | Nix unstable | `1.26.0` | ⚠️ outdated |
@@ -107,4 +107,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T06:36:45Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T06:14:14Z._
