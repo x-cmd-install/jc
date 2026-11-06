@@ -47,22 +47,22 @@ x install jc
 
 ## 流行度
 
-- **Star**: 8,701 · **Fork**: 269 · **开放 issue**: 404 · **贡献者**: 85
+- **Star**: 8,703 · **Fork**: 271 · **开放 issue**: 405 · **贡献者**: 85
 
 ## 累计统计
 
-- **发布数**: 57 · **已合并 PR**: 386 · **开放 PR**: 19 · **已关闭 issue**: 379 · **开放 issue**: 25 · **提交数**: 4616
+- **发布数**: 57 · **已合并 PR**: 386 · **开放 PR**: 21 · **已关闭 issue**: 379 · **开放 issue**: 26 · **提交数**: 4616
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-06 | 2 | 82 | 14 | 5 | 10 | 435 |
-| last60d | 2026-09-06 | 3 | 102 | 15 | 11 | 10 | 465 |
-| 90d | 2026-08-07 | 3 | 119 | 17 | 12 | 10 | 517 |
-| last180d | 2026-05-09 | 4 | 128 | 17 | 19 | 10 | 522 |
-| 360d | 2025-11-10 | 4 | 136 | 17 | 32 | 10 | 560 |
-| last720d | 2024-11-15 | 7 | 148 | 17 | 71 | 11 | 795 |
+| 30d | 2026-10-07 | 2 | 82 | 16 | 5 | 10 | 435 |
+| last60d | 2026-09-07 | 3 | 102 | 17 | 11 | 11 | 465 |
+| 90d | 2026-08-08 | 3 | 119 | 19 | 12 | 11 | 517 |
+| last180d | 2026-05-10 | 4 | 128 | 19 | 19 | 11 | 522 |
+| 360d | 2025-11-11 | 4 | 136 | 19 | 32 | 11 | 560 |
+| last720d | 2024-11-16 | 7 | 148 | 19 | 71 | 12 | 795 |
 
 ## Release 资产
 
@@ -79,25 +79,6 @@ x install jc
 | [jc_1.26.2-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_amd64.deb) | 10.8 MiB | `runtime/deb/amd64` |
 | [jc_1.26.2-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/jc) 上共有 **84** 个发行版报告此项目。**13** 个 ✅ 已是最新上游版本，**64** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.25.7` | ⚠️ outdated |
-| Debian 14 | `1.25.7` | ⚠️ outdated |
-| Debian 13 | `1.25.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.2` | ✅ latest |
-| Homebrew | `1.26.2` | ✅ latest |
-| Fedora rawhide | `1.26.2` | ✅ latest |
-| Nix unstable | `1.26.0` | ⚠️ outdated |
-| Void | `1.26.2` | ✅ latest |
-| Alpine edge | `1.26.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.26.2` | ✅ latest |
-
 ## 改进这些数据
 
 jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `jc` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -107,4 +88,4 @@ jc 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261105.yml` · 2026-11-05T06:33:14Z._
+_数据快照: `data/card/261106.yml` · 2026-11-06T06:28:21Z._
