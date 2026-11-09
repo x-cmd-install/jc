@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 11547841,
       "digest": "sha256:ec6ad5b22f328f0939610f5ce35fdc3d329cab66ea5e7488505d55d9626a96a3",
-      "download_count": 72,
+      "download_count": 75,
       "created_at": "2026-10-29T22:51:08Z",
       "updated_at": "2026-10-29T22:51:16Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-darwin-aarch64.tar.gz"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 11381324,
       "digest": "sha256:19952470a0ad1ea42d9401ea3bbc92d7b6f38c92fe0313b0214ee2073cb39ef7",
-      "download_count": 127,
+      "download_count": 129,
       "created_at": "2026-10-29T22:51:31Z",
       "updated_at": "2026-10-29T22:51:38Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-linux-x86_64.tar.gz"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 10862057,
       "digest": "sha256:1d722857ce7b8f267b31b93d2904e145d09e5322c0183358909d775c83abff60",
-      "download_count": 122,
+      "download_count": 126,
       "created_at": "2026-10-29T22:51:38Z",
       "updated_at": "2026-10-29T22:51:46Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2-windows.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 11762176,
       "digest": "sha256:788d5c54af03c4ef010f5aa557012df51330dc36fa607d01b8fef3ac14071ef3",
-      "download_count": 100,
+      "download_count": 103,
       "created_at": "2026-10-29T22:51:46Z",
       "updated_at": "2026-10-29T22:51:54Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc-1.26.2.msi"
@@ -391,7 +391,7 @@
       "state": "uploaded",
       "size": 11166554,
       "digest": "sha256:f8f74f7196a7a43f8fe8a3837054868c75bec6a3d7eab1fbf71e53112bd12f80",
-      "download_count": 23,
+      "download_count": 24,
       "created_at": "2026-10-29T22:55:18Z",
       "updated_at": "2026-10-29T22:55:25Z",
       "browser_download_url": "https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_arm64.deb"
