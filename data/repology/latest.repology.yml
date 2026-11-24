@@ -1,110 +1,14 @@
-- repo: raspbian_testing
-  subrepo: main
+- repo: manjaro_unstable
+  subrepo: extra
   srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: pureos_landing
-  subrepo: landing/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.22.5
-  origversion: 1.22.5-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - misc
-- repo: scoop
-  subrepo: main
   binname: jc
   visiblename: jc
   version: 1.26.2
-  origversion: null
+  origversion: 1.26.2-1
   status: newest
+  summary: Converts the output of popular command-line tools and file-types to JSON
   licenses:
     - MIT
-- repo: deepin_25
-  subrepo: community
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
 - repo: aur
   srcname: jc-git
   binname: jc-git
@@ -117,6 +21,31 @@
     - grigruss@aur
   licenses:
     - MIT
+- repo: nix_stable_24_05
+  srcname: jc
+  visiblename: jc
+  version: 1.25.2
+  origversion: null
+  status: outdated
+  summary: This tool serializes the output of popular command line tools and filetypes to structured JSON output
+  maintainers:
+    - nixpkgs@mail.atemu.net
+  licenses:
+    - MIT
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
 - repo: alpine_3_21
   subrepo: community
   srcname: jc
@@ -299,17 +228,6 @@
     - omni+alpine@hack.org
   licenses:
     - MIT
-- repo: arch
-  subrepo: extra
-  srcname: jc
-  binname: jc
-  visiblename: jc
-  version: 1.26.2
-  origversion: 1.26.2-1
-  status: newest
-  summary: Converts the output of popular command-line tools and file-types to JSON
-  licenses:
-    - MIT
 - repo: alpine_3_23
   subrepo: community
   srcname: jc
@@ -318,136 +236,6 @@
   version: 1.25.6
   origversion: 1.25.6-r0
   status: outdated
-  summary: Zsh completions for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: jc
-  binname: jc
-  visiblename: jc
-  version: 1.25.7
-  origversion: 1.25.7-r0
-  status: outdated
-  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: jc
-  binname: jc-bash-completion
-  visiblename: jc-bash-completion
-  version: 1.25.7
-  origversion: 1.25.7-r0
-  status: outdated
-  summary: Bash completions for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: jc
-  binname: jc-doc
-  visiblename: jc-doc
-  version: 1.25.7
-  origversion: 1.25.7-r0
-  status: outdated
-  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: jc
-  binname: jc-pyc
-  visiblename: jc-pyc
-  version: 1.25.7
-  origversion: 1.25.7-r0
-  status: outdated
-  summary: Precompiled Python bytecode for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: jc
-  binname: jc-zsh-completion
-  visiblename: jc-zsh-completion
-  version: 1.25.7
-  origversion: 1.25.7-r0
-  status: outdated
-  summary: Zsh completions for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: jc
-  binname: jc
-  visiblename: jc
-  version: 1.26.2
-  origversion: 1.26.2-r0
-  status: newest
-  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: jc
-  binname: jc-bash-completion
-  visiblename: jc-bash-completion
-  version: 1.26.2
-  origversion: 1.26.2-r0
-  status: newest
-  summary: Bash completions for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: jc
-  binname: jc-doc
-  visiblename: jc-doc
-  version: 1.26.2
-  origversion: 1.26.2-r0
-  status: newest
-  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts (documentation)
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: jc
-  binname: jc-pyc
-  visiblename: jc-pyc
-  version: 1.26.2
-  origversion: 1.26.2-r0
-  status: newest
-  summary: Precompiled Python bytecode for jc
-  maintainers:
-    - omni+alpine@hack.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: jc
-  binname: jc-zsh-completion
-  visiblename: jc-zsh-completion
-  version: 1.26.2
-  origversion: 1.26.2-r0
-  status: newest
   summary: Zsh completions for jc
   maintainers:
     - omni+alpine@hack.org
@@ -467,6 +255,158 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
+- repo: alpine_3_24
+  subrepo: community
+  srcname: jc
+  binname: jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-r0
+  status: outdated
+  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: jc
+  binname: jc-bash-completion
+  visiblename: jc-bash-completion
+  version: 1.25.7
+  origversion: 1.25.7-r0
+  status: outdated
+  summary: Bash completions for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: jc
+  binname: jc-doc
+  visiblename: jc-doc
+  version: 1.25.7
+  origversion: 1.25.7-r0
+  status: outdated
+  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: jc
+  binname: jc-pyc
+  visiblename: jc-pyc
+  version: 1.25.7
+  origversion: 1.25.7-r0
+  status: outdated
+  summary: Precompiled Python bytecode for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: jc
+  binname: jc-zsh-completion
+  visiblename: jc-zsh-completion
+  version: 1.25.7
+  origversion: 1.25.7-r0
+  status: outdated
+  summary: Zsh completions for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jc
+  binname: jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: 1.26.2-r0
+  status: newest
+  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jc
+  binname: jc-bash-completion
+  visiblename: jc-bash-completion
+  version: 1.26.2
+  origversion: 1.26.2-r0
+  status: newest
+  summary: Bash completions for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jc
+  binname: jc-doc
+  visiblename: jc-doc
+  version: 1.26.2
+  origversion: 1.26.2-r0
+  status: newest
+  summary: CLI & python library converting output of common tools, file-types & strings to JSON, YAML or dicts (documentation)
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jc
+  binname: jc-pyc
+  visiblename: jc-pyc
+  version: 1.26.2
+  origversion: 1.26.2-r0
+  status: newest
+  summary: Precompiled Python bytecode for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: jc
+  binname: jc-zsh-completion
+  visiblename: jc-zsh-completion
+  version: 1.26.2
+  origversion: 1.26.2-r0
+  status: newest
+  summary: Zsh completions for jc
+  maintainers:
+    - omni+alpine@hack.org
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: extra
+  srcname: jc
+  binname: jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: 1.26.2-1
+  status: newest
+  summary: Converts the output of popular command-line tools and file-types to JSON
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: jc
+  binname: jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: 1.26.2-1
+  status: newest
+  summary: Converts the output of popular command-line tools and file-types to JSON
+  licenses:
+    - MIT
 - repo: debian_12
   subrepo: bookworm/main
   srcname: jc
@@ -511,6 +451,48 @@
     - misc
 - repo: debian_unstable
   subrepo: sid/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: community
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.14.3
+  origversion: 1.14.3-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: devuan_unstable
+  subrepo: unstable/main
   srcname: jc
   binnames:
     - jc
@@ -642,21 +624,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: release
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.25.4
-  origversion: 1.25.4-2.fc42
-  status: legacy
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: updates
   srcname: jc
   binnames:
@@ -671,16 +638,16 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: updates
+- repo: fedora_42
+  subrepo: release
   srcname: jc
   binnames:
     - jc
     - python3-jc
   visiblename: jc
-  version: 1.26.2
-  origversion: 1.26.2-1.fc43
-  status: newest
+  version: 1.25.4
+  origversion: 1.25.4-2.fc42
+  status: legacy
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -696,6 +663,21 @@
   version: 1.25.5
   origversion: 1.25.5-5.fc43
   status: legacy
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: updates
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: 1.26.2-1.fc43
+  status: newest
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -732,21 +714,6 @@
   categories:
     - Unspecified
 - repo: fedora_45
-  subrepo: updates
-  srcname: jc
-  binnames:
-    - jc
-    - python3-jc
-  visiblename: jc
-  version: 1.26.2
-  origversion: 1.26.2-1.fc45
-  status: newest
-  summary: Serialize the output of CLI tools and file-types to structured JSON
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_45
   subrepo: release
   srcname: jc
   binnames:
@@ -756,6 +723,21 @@
   version: 1.26.0
   origversion: 1.26.0-1.fc45
   status: legacy
+  summary: Serialize the output of CLI tools and file-types to structured JSON
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_45
+  subrepo: updates
+  srcname: jc
+  binnames:
+    - jc
+    - python3-jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: 1.26.2-1.fc45
+  status: newest
   summary: Serialize the output of CLI tools and file-types to structured JSON
   licenses:
     - MIT
@@ -805,20 +787,6 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
-- repo: pureos_byzantium
-  subrepo: byzantium/main
-  srcname: jc
-  binnames:
-    - jc
-  visiblename: jc
-  version: 1.14.3
-  origversion: 1.14.3-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - sudipm.mukherjee@gmail.com
-  categories:
-    - utils
 - repo: macports
   srcname: sysutils/jc
   binname: jc
@@ -838,43 +806,10 @@
   srcname: jc
   binname: jc
   visiblename: jc
-  version: 1.26.0
-  origversion: 1.26.0-1
-  status: outdated
-  summary: Converts the output of popular command-line tools and file-types to JSON
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: jc
-  binname: jc
-  visiblename: jc
   version: 1.26.2
   origversion: 1.26.2-1
   status: newest
   summary: Converts the output of popular command-line tools and file-types to JSON
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: jc
-  binname: jc
-  visiblename: jc
-  version: 1.26.2
-  origversion: 1.26.2-1
-  status: newest
-  summary: Converts the output of popular command-line tools and file-types to JSON
-  licenses:
-    - MIT
-- repo: nix_stable_24_05
-  srcname: jc
-  visiblename: jc
-  version: 1.25.2
-  origversion: null
-  status: outdated
-  summary: This tool serializes the output of popular command line tools and filetypes to structured JSON output
-  maintainers:
-    - nixpkgs@mail.atemu.net
   licenses:
     - MIT
 - repo: nix_stable_24_11
@@ -1023,6 +958,71 @@
     - sudipm.mukherjee@gmail.com
   categories:
     - misc
+- repo: pureos_landing
+  subrepo: landing/main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.22.5
+  origversion: 1.22.5-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.4
+  origversion: 1.25.4-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: jc
+  binnames:
+    - jc
+  visiblename: jc
+  version: 1.25.7
+  origversion: 1.25.7-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - sudipm.mukherjee@gmail.com
+  categories:
+    - misc
+- repo: scoop
+  subrepo: main
+  binname: jc
+  visiblename: jc
+  version: 1.26.2
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
 - repo: ubuntu_22_04
   subrepo: jammy/universe
   srcname: jc
