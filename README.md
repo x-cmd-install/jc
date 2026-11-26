@@ -47,22 +47,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 8,710 · **Forks**: 280 · **Open issues**: 411 · **Contributors**: 85
+- **Stars**: 8,711 · **Forks**: 279 · **Open issues**: 411 · **Contributors**: 85
 
 ## Totals (cumulative)
 
-- **Releases**: 57 · **Merged PRs**: 410 · **Open PRs**: 15 · **Closed issues**: 382 · **Open issues**: 29 · **Commits**: 4616
+- **Releases**: 57 · **Merged PRs**: 422 · **Open PRs**: 7 · **Closed issues**: 382 · **Open issues**: 29 · **Commits**: 4616
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-26 | 1 | 65 | 6 | 1 | 13 | 0 |
-| last60d | 2026-09-26 | 2 | 106 | 10 | 7 | 15 | 437 |
-| 90d | 2026-08-27 | 3 | 130 | 11 | 13 | 15 | 465 |
-| last180d | 2026-05-29 | 4 | 152 | 13 | 20 | 15 | 522 |
-| 360d | 2025-11-30 | 4 | 160 | 13 | 34 | 15 | 560 |
-| last720d | 2024-12-05 | 6 | 168 | 13 | 69 | 16 | 770 |
+| 30d | 2026-10-27 | 1 | 62 | 3 | 0 | 10 | 0 |
+| last60d | 2026-09-27 | 2 | 115 | 6 | 7 | 15 | 0 |
+| 90d | 2026-08-28 | 3 | 135 | 7 | 13 | 15 | 0 |
+| last180d | 2026-05-30 | 4 | 163 | 7 | 20 | 15 | 0 |
+| 360d | 2025-12-01 | 4 | 171 | 7 | 34 | 15 | 0 |
+| last720d | 2024-12-06 | 6 | 179 | 7 | 68 | 16 | 770 |
 
 ## Release assets
 
@@ -79,25 +79,6 @@ Lowest-scoring checks:
 | [jc_1.26.2-1_amd64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_amd64.deb) | 10.8 MiB | `runtime/deb/amd64` |
 | [jc_1.26.2-1_arm64.deb](https://github.com/kellyjonbrazil/jc/releases/download/v1.26.2/jc_1.26.2-1_arm64.deb) | 10.6 MiB | `runtime/deb/arm64` |
 
-## Distribution status
-
-Reported by **87** distros on [repology.org](https://repology.org/project/jc). **21** are ✅ on the latest upstream release, **58** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.25.7` | ⚠️ outdated |
-| Debian 14 | `1.25.7` | ⚠️ outdated |
-| Debian 13 | `1.25.4` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.25.5` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.25.1` | ⚠️ outdated |
-| Arch | `1.26.2` | ✅ latest |
-| Homebrew | `1.26.2` | ✅ latest |
-| Fedora rawhide | `1.26.2` | ✅ latest |
-| Nix unstable | `1.26.0` | ⚠️ outdated |
-| Void | `1.26.2` | ✅ latest |
-| Alpine edge | `1.26.2` | ✅ latest |
-| openSUSE Tumbleweed | `1.26.2` | ✅ latest |
-
 ## Improve this data
 
 Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `jc` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +88,4 @@ Install metadata for jc lives in the [x-cmd/install](https://github.com/x-cmd/in
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261125.yml` · 2026-11-25T08:19:37Z._
+_Snapshot: `data/card/261126.yml` · 2026-11-26T08:06:13Z._
